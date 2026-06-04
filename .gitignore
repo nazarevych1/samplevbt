@@ -1,0 +1,8 @@
+.env
+/backtesting/output
+/optimization/optimization_output
+/wfo/output
+poetry.lock
+.venv/
+src/__pycache__
+/data
