@@ -1,23 +1,20 @@
 [tool.poetry]
-name = "samplevbt"
-version = "0.1.0"
-description = "Gorider-style VectorBT backtester with SMA crossover strategy"
+name = "vbtsample"
+version = "0.2.0"
+description = "VectorBT backtesting framework for client Excel signal files (ar_bt.xlsx format)"
 authors = ["Oleksandr Nazarevych <oleksandr.o.nazarevych@gmail.com>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.10"
 vectorbt = "^0.28.1"
 pyyaml = "^6.0.3"
 plotly = "^6.3.0"
-anywidget = "^0.9.18"
-python-dotenv = "^1.1.1"
-tqdm = "^4.67.1"
-seaborn = "^0.13.2"
 matplotlib = "^3.10.0"
 pandas = "^2.2.0"
 numpy = "^2.0.0"
-requests = "^2.32.0"
+openpyxl = "^3.1.0"
 
 [build-system]
 requires = ["poetry-core"]

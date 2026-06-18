@@ -1,4 +1,4 @@
-"""Suppress noisy warnings for CLI scripts (pandas, vectorbt, etc.)."""
+"""Suppress noisy warnings for CLI scripts."""
 
 import warnings
 

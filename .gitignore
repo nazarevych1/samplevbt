@@ -1,8 +1,9 @@
 .env
-/backtesting/output
-/optimization/optimization_output
-/wfo/output
-poetry.lock
 .venv/
-src/__pycache__
-/data
+poetry.lock
+src/__pycache__/
+/backtesting/output/
+/data/*.pkl
+/data/*.xlsx
+_analyze_excel*.py
+_excel_analysis*.txt
